@@ -7,6 +7,24 @@ ex) cd C:\\Users\\MALIFE\\Documents
 3. 초기화
 git init
 
+-------------------------------------------------------------------------
+소스올린후 참가자 버전
+4. 원격 저장소 추가..
+git remote add 원격저장소이름 git원격저장로경로
+ex) git remote add storage https://github.com/ppangas/malife.git
+
+원격저장소확인
+git remote -v
+
+5.최초 원격 pull
+5. git pull origin master
+
+추후는 branch를 따서 진행.
+
+
+
+------------------------------------------------------------------------
+최초 소스 올리는 사람버전
 4. 해당 폴더에있는 파일을 스테이징한다.
 git add . (.은 모든것)
 git status로 초록색으로 변하면 스테이징된것
@@ -25,9 +43,9 @@ git remote -v
 git branch
 
 8.최초 원격 push
-8. git push origin master
+8. git push storage master
 
 추후는 branch를 따서 진행.
 
-
+---------------------------------------------------------------------------------------------
 
