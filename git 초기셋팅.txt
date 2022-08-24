@@ -17,13 +17,15 @@ git commit -m "fist commit"
 
 6. 원격 저장소 추가..
 git remote add 원격저장소이름 git원격저장로경로
-ex) git remote add storage https://github.com/ppangas/Storage.git
+ex) git remote add origin https://github.com/ppangas/malife.git
 
+원격저장소확인
+git remote -v
 7. 현재 브랜치 확인
 git branch
 
 8.최초 원격 push
-8. git push storage master
+8. git push origin master
 
 추후는 branch를 따서 진행.
 
