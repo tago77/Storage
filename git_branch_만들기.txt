@@ -1,0 +1,39 @@
+브랜치 만들기
+1. git branch RB_1.0 master
+이동
+2. git checkout RB_1.0
+
+※ git 2.23버전 부터 git checkout을 대신하여 switch와 restore가 나오게 되었다.
+checkout의 기능이 너무 많아 분리하였다고 볼 수 있다.
+ 
+ - checkout: Switch branches or restore working tree files
+ - switch: Switch branches  - restore: Restore working tree files
+
+git switch -c [브랜치명] 브랜치를 만들면서 변경
+
+
+
+삭제
+git branch -D 브랜치명
+
+브랜치명 변경
+git branch -m 전 후
+
+현재 브랜치 확인
+git branch (-v)상세
+
+머지해야되는지 확인
+git branch --merged
+
+했을떄 브랜치에 *가붙어있으면 머지해야되는 버전
+
+머지하지않은 브랜치확인
+git branch --no-merged 
+
+▶ 3. git 변경사항 복원
+1) git restore 
+ - 작업중인 파일(변경 내역이 있는 파일)을 복원할 수 있다.
+
+
+2) git restore --staged
+ - stage된 파일도 복구할 수 있다. (예전엔 git reset HEAD 파일명 으로 복구할 수 있었다.)
