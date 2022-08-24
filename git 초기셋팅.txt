@@ -1,5 +1,8 @@
 1. https://github.com/
-에서 회원가입후 +버튼을 눌러 Repository를 만든다.
+에서 회원가입후 +버튼을 눌러 Repository를 만든다. 
+https://git-scm.com/downloads
+에서 git bash를 설치한다.
+그후.
 
 2. 로컬 git을 연동시킬 폴더로 이동..(\를 2번 써줘야됨)
 ex) cd C:\\Users\\MALIFE\\Documents
