@@ -14,7 +14,7 @@ git init
 소스올린후 참가자 버전
 4. 원격 저장소 추가..
 git remote add 원격저장소이름 git원격저장로경로
-ex) git remote add storage https://github.com/ppangas/malife.git
+ex) git remote add origin https://github.com/ppangas/malife.git
 
 원격저장소확인
 git remote -v
