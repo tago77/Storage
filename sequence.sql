@@ -3,24 +3,24 @@ CREATE TABLE sequences ( name varchar(32), currval BIGINT UNSIGNED ) ENGINE=Inno
 
 -- 프로시져 생성
 DELIMITER $$
-CREATE PROCEDURE `create_sequence`(IN the_name text)
+CREATE PROCEDURE `create_sequence`(IN accidentacno text)
 MODIFIES SQL DATA
 DETERMINISTIC
 BEGIN
-    DELETE FROM sequences WHERE name=the_name;
-    INSERT INTO sequences VALUES (the_name, 0);
+    DELETE FROM sequences WHERE name=accidentacno;
+    INSERT INTO sequences VALUES (accidentacnoe, 0);
 END;
 
 -- 함수 생성
 DELIMITER $$
-CREATE FUNCTION `nextval`(the_name varchar(32))
+CREATE FUNCTION `nextval`(accidentacno varchar(32))
 RETURNS BIGINT UNSIGNED
 MODIFIES SQL DATA
 DETERMINISTIC
 BEGIN
     DECLARE ret BIGINT UNSIGNED;
-    UPDATE sequences SET currval=currval+1 WHERE name=the_name;
-    SELECT currval INTO ret FROM sequences WHERE name=the_name limit 1;
+    UPDATE sequences SET currval=currval+1 WHERE name=accidentacno;
+    SELECT currval INTO ret FROM sequences WHERE name=accidentacno limit 1;
     RETURN ret;
 END;
 
