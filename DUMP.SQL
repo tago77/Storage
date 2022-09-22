@@ -419,3 +419,29 @@ UNLOCK TABLES;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 -- Dump completed on 2022-09-19 15:36:49
+
+
+alter table tbnbb0003 add column PRFP_DSTRT int(3);
+alter table tbpcb0001 add column REDT char(8);
+alter table tbpcb0001 add column HDOFC_DT char(8);
+alter table tbpcb0001 add column ISRD_CHGYN char(1);
+alter table tbpcb0002 add column INS_PRFP_DSTN_COMM_CD varchar(1);
+alter table tbpcb0002 add column CNTR_RSPCD varchar(2);
+
+CREATE TABLE
+  `tbpcb0004` (
+    `CHG_REQS_ID` varchar(20) NOT NULL,
+    `CUST_ID` varchar(10) NOT NULL,
+    `CUST_CNTR_RTPY` varchar(2) NOT NULL,
+    `CHG_REQS_BFAF_DCD` varchar(1) NOT NULL,
+    `IPDTM` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    `INPP_CD` varchar(8) NOT NULL,
+    `NTRY_AGE` int(3) DEFAULT NULL,
+    `JOBCD` varchar(6) DEFAULT NULL,
+    `RISK_HOBY_CD` varchar(2) DEFAULT NULL,
+    `DRVG_CARTP_CD` varchar(2) DEFAULT NULL,
+    `RISK_GCD` varchar(2) DEFAULT NULL,
+    `PRFP_DSTRT` int(3) DEFAULT NULL,
+    PRIMARY KEY (`CHG_REQS_ID`, `CUST_ID`, `CUST_CNTR_RTPY`, `CHG_REQS_BFAF_DCD`)
+  ) ENGINE = InnoDB DEFAULT CHARSET = utf8mb3;
+  
