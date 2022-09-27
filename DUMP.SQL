@@ -445,3 +445,19 @@ CREATE TABLE
     PRIMARY KEY (`CHG_REQS_ID`, `CUST_ID`, `CUST_CNTR_RTPY`, `CHG_REQS_BFAF_DCD`)
   ) ENGINE = InnoDB DEFAULT CHARSET = utf8mb3;
   
+  
+ alter table tbnbb0001
+add column NOT_SMOK_DCYN varchar(1),
+add column VCN_INCL_DCYN varchar(1),
+add column MNYC_CBRT_DCYN varchar(1),
+add column MNYC_DC_PCNT int(3),
+add column VCN_INCL_DT varchar(8),
+add column NOT_SMOK_DIAG_DT varchar(8);
+
+alter table tbpcb0002
+add column NOT_SMOK_DCYN varchar(1),
+add column VCN_INCL_DCYN varchar(1),
+add column MNYC_CBRT_DCYN varchar(1),
+add column MNYC_DC_PCNT int(3),
+add column VCN_INCL_DT varchar(8),
+add column NOT_SMOK_DIAG_DT varchar(8);
