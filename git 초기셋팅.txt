@@ -46,7 +46,7 @@ git remote -v
 git branch
 
 8.최초 원격 push
-8. git push storage master
+8. git push origin master
 
 추후는 branch를 따서 진행.
 
