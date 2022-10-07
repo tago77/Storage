@@ -1,2 +1,3 @@
 http://localhost:9090/malife/websquare/websquare.html?w2xPath=/malife/UI/malife/accident/simpleAccidentReception.xml
 http://public-web-lb-12091238-1fa3f0277e5e.kr-fin.lb.naverncp.com/malife/websquare/websquare.html?w2xPath=/malife/UI/malife/accident/simpleAccidentReception.xml
+http://localhost:8080/websquare/websquare.html?w2xPath=/malife/accident/accidentBilgInfoInput.xml
