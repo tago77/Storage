@@ -2,4 +2,9 @@ http://localhost:9090/malife/websquare/websquare.html?w2xPath=/malife/UI/malife/
 http://public-web-lb-12091238-1fa3f0277e5e.kr-fin.lb.naverncp.com/malife/websquare/websquare.html?w2xPath=/malife/UI/malife/accident/simpleAccidentReception.xml
 http://localhost:8080/websquare/websquare.html?w2xPath=/malife/accident/accidentBilgInfoInput.xml
 
+
+#네이버 링크 샘플
 http://public-web-lb-12091238-1fa3f0277e5e.kr-fin.lb.naverncp.com/websquare/websquare.html?w2xPath=/malife/accident/accidentBilgInfoInput.xml
+
+#참조사이트
+https://bootstrapthemes.co/item/misocial-multi-page-html-5-template/
