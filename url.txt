@@ -9,3 +9,6 @@ http://public-web-lb-12091238-1fa3f0277e5e.kr-fin.lb.naverncp.com/websquare/webs
 
 #네이버클라우드 선행개발 메인페이지
 http://public-web-lb-12091238-1fa3f0277e5e.kr-fin.lb.naverncp.com
+
+#AWS 선행개발 메인페이지
+http://internet-web-lb-2056435928.ap-northeast-2.elb.amazonaws.com/
